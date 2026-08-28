@@ -14,7 +14,7 @@ async function sendMessage() {
     inputField.value = "";
 
     try {
-        const response = await fetch("https://courageous-spirit-production-1347.up.railway.app/chat", {
+        const response = await fetch("https://it-support-and-devops-production.up.railway.app/chat", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
